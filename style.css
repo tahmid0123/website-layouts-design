@@ -1,3 +1,10 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -44,4 +51,10 @@
 }
 .right-column {
     width: 70%;
+}
+.split-column .left-column {
+    width: 50%;
+}
+.split-column .right-column {
+    width: 50%;
 }
